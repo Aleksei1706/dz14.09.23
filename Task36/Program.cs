@@ -19,7 +19,7 @@ int[] RandomArray(int length, int min, int max)
 int schet(int[] array)
 {
     int count = 0;
-    for (int i = 1; i < array.Length; i +=2)
+    for (int i = 0; i < array.Length; i +=2)
     {
         count = count + array[i];
     }
